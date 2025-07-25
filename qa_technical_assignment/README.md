@@ -1,19 +1,52 @@
-# 🧪 QA Assignment: Functional & Technical Testing
+# Technical Assignment
 
-## 📌 Overview
+<br>
 
-This repository contains the QA assignment for evaluating both **functional test analysis** and **technical test automation** skills.
+## Prerequisites
 
-### ✅ Functional Testing (Manual)
-- Access any flight booking website and list all the test cases that come to mind to validate the flight search functionality (reaching the payment step is not necessary; it's enough if the search results are displayed). IMPORTANT: just briefly name the test cases you consider necessary to cover this functionality, without detailing them.
+---
 
-- Choose one of the test cases you listed and develop its definition. Provide the level of detail and structure you consider appropriate.
+- [Node.js] **4.2.x** or above installed.
+- Have _Node.js_ installation path added to **PATH** environment variable.
 
-- Simulate that one of the test cases detects a bug. Make up the bug and report it, indicating the level of detail and structure you consider appropriate.
+<br>
 
-- How would you validate a field that accepts a date of birth?
+## Installation
 
-### 🛠 Technical Testing (Automated)
+---
+
+All need node packages and its dependencies are specified in the `package.json` file located in the repository root. So all you need is to run the following command from the repository root:
+
+```sh
+$ npm install
+$ npx playwright install
+```
+
+<br>
+
+## Execution
+
+---
+
+If you want to execute the tests, you should type the next command in the terminal:
+<br>
+
+FRONT Playwright:
+
+```sh
+$ npm run playwright
+```
+
+BACK:
+
+```sh
+$ npm run backend
+```
+
+When the Cypress UI starts, double click on the test set you want to run, or click on run all specs to run all of them.
+You should run the test on chrome browser (normally preselected)
+<br>
+
 ## FRONTEND - Scenarios of expected tests
 
 ---
