@@ -1,3 +1,4 @@
 {
-  "payloadPost": ""
+  "pokemon": "pikachu",
+  "expectedType": "electric"
 }
